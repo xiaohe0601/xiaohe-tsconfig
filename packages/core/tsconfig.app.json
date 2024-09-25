@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.basic.json",
+  "compilerOptions": {
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "allowImportingTsExtensions": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true
+  }
+}

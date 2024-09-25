@@ -1,0 +1,27 @@
+{
+  "name": "@xiaohe01/tsconfig",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "🤞 basic tsconfig for xiaohe",
+  "author": "xiaohe0601 <xiaohe0601@outlook.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/xiaohe0601/xiaohe-tsconfig#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaohe0601/xiaohe-tsconfig.git"
+  },
+  "bugs": "https://github.com/xiaohe0601/xiaohe-tsconfig/issues",
+  "keywords": [
+    "tsconfig"
+  ],
+  "sideEffects": false,
+  "exports": {
+    "./basic": "./tsconfig.basic.json",
+    "./app": "./tsconfig.app.json",
+    "./app-vue": "./tsconfig.app-vue.json",
+    "./lib": "./tsconfig.lib.json",
+    "./lib-dom": "./tsconfig.lib-dom.json",
+    "./*": "./*"
+  },
+  "main": "./tsconfig.app.json"
+}

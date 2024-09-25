@@ -1,0 +1,19 @@
+{
+  "name": "xiaohe-tsconfig",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@9.11.0",
+  "description": "🤞 basic tsconfig for xiaohe",
+  "scripts": {
+    "release": "bumpp",
+    "lint": "eslint --cache .",
+    "lint:fix": "nr lint --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^3.6.2",
+    "@antfu/ni": "^0.23.0",
+    "bumpp": "^9.5.2",
+    "eslint": "^9.10.0"
+  }
+}
