@@ -9,7 +9,6 @@
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![bundle][bundle-src]][bundle-href]
-[![JSDocs][jsdocs-src]][jsdocs-href]
 [![License][license-src]][license-href]
 
 Xiaohe / [github@xiaohe0601](https://github.com/xiaohe0601) / [gitee@xiaohe0601](https://gitee.com/xiaohe0601)
@@ -78,21 +77,17 @@ npm install -D @xiaohe01/tsconfig
 
 [github-stars-href]: https://github.com/xiaohe0601/xiaohe-tsconfig
 
-[npm-version-src]: https://img.shields.io/npm/v/xiaohe-tsconfig?style=flat&colorA=080f12&colorB=1fa669
+[npm-version-src]: https://img.shields.io/npm/v/@xiaohe01/tsconfig?style=flat&colorA=080f12&colorB=1fa669
 
-[npm-version-href]: https://npmjs.com/package/xiaohe-tsconfig
+[npm-version-href]: https://npmjs.com/package/@xiaohe01/tsconfig
 
-[npm-downloads-src]: https://img.shields.io/npm/dm/xiaohe-tsconfig?style=flat&colorA=080f12&colorB=1fa669
+[npm-downloads-src]: https://img.shields.io/npm/dm/@xiaohe01/tsconfig?style=flat&colorA=080f12&colorB=1fa669
 
-[npm-downloads-href]: https://npmjs.com/package/xiaohe-tsconfig
+[npm-downloads-href]: https://npmjs.com/package/@xiaohe01/tsconfig
 
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/xiaohe-tsconfig?style=flat&colorA=080f12&colorB=1fa669&label=minzip
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/@xiaohe01/tsconfig?style=flat&colorA=080f12&colorB=1fa669&label=minzip
 
-[bundle-href]: https://bundlephobia.com/result?p=xiaohe-tsconfig
-
-[jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-080f12?style=flat&colorA=080f12&colorB=1fa669
-
-[jsdocs-href]: https://www.jsdocs.io/package/xiaohe-tsconfig
+[bundle-href]: https://bundlephobia.com/result?p=@xiaohe01/tsconfig
 
 [license-src]: https://img.shields.io/github/license/xiaohe0601/xiaohe-tsconfig.svg?style=flat&colorA=080f12&colorB=1fa669
 
