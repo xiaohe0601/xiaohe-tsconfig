@@ -16,12 +16,12 @@
   ],
   "sideEffects": false,
   "exports": {
+    ".": "./tsconfig.app.json",
     "./basic": "./tsconfig.basic.json",
     "./app": "./tsconfig.app.json",
     "./app-vue": "./tsconfig.app-vue.json",
     "./lib": "./tsconfig.lib.json",
     "./lib-dom": "./tsconfig.lib-dom.json",
     "./*": "./*"
-  },
-  "main": "./tsconfig.app.json"
+  }
 }
