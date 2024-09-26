@@ -53,15 +53,15 @@ npm install -D @xiaohe01/tsconfig
 
 #### List
 
-- [@xiaohe01/tsconfig/basic](./packages/core/tsconfig.basic.json)
+- [@xiaohe01/tsconfig/basic](./packages/core/tsconfig.basic.json)：tsconfig.basic.json
 
-- [@xiaohe01/tsconfig/app](./packages/core/tsconfig.app.json) `default`
+- [@xiaohe01/tsconfig/app](./packages/core/tsconfig.app.json) `default`：tsconfig.app.json
 
-- [@xiaohe01/tsconfig/app-vue](./packages/core/tsconfig.app-vue.json)
+- [@xiaohe01/tsconfig/app-vue](./packages/core/tsconfig.app-vue.json)：tsconfig.app-vue.json
 
-- [@xiaohe01/tsconfig/lib](./packages/core/tsconfig.lib.json)
+- [@xiaohe01/tsconfig/lib](./packages/core/tsconfig.lib.json)：tsconfig.lib.json
 
-- [@xiaohe01/tsconfig/lib-dom](./packages/core/tsconfig.lib-dom.json)
+- [@xiaohe01/tsconfig/lib-dom](./packages/core/tsconfig.lib-dom.json)：tsconfig.lib-dom.json
 
 ### 🐶 Discussion & Communication
 
