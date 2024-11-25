@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.2",
   "private": true,
-  "packageManager": "pnpm@9.12.3",
+  "packageManager": "pnpm@9.14.2",
   "description": "🤞 basic tsconfig for xiaohe",
   "scripts": {
     "release": "bumpp -r",
@@ -11,9 +11,9 @@
     "lint:fix": "nr lint --fix"
   },
   "devDependencies": {
-    "@antfu/ni": "^0.23.0",
+    "@antfu/ni": "^0.23.1",
     "@xiaohe01/eslint-config": "^0.0.7",
     "bumpp": "^9.8.1",
-    "eslint": "^9.14.0"
+    "eslint": "^9.15.0"
   }
 }
