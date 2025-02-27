@@ -7,7 +7,7 @@
   "description": "🤞 basic tsconfig for xiaohe",
   "scripts": {
     "release": "bumpp -r",
-    "lint": "eslint --cache .",
+    "lint": "eslint --cache",
     "lint:fix": "nr lint --fix"
   },
   "devDependencies": {
