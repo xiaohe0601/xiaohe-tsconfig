@@ -4,7 +4,7 @@
     "moduleDetection": "force",
     "useDefineForClassFields": true,
     "module": "ESNext",
-    "moduleResolution": "Bundler",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "strict": true,
     "noImplicitOverride": true,
