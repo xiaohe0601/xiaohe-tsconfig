@@ -1,6 +1,8 @@
 {
   "extends": "./tsconfig.basic.json",
   "compilerOptions": {
-    "lib": ["ESNext"]
+    "lib": [
+      "ES2020"
+    ]
   }
 }
