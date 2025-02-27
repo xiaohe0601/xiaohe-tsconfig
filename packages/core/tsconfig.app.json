@@ -6,8 +6,8 @@
       "DOM",
       "DOM.Iterable"
     ],
+    "types": [],
     "allowImportingTsExtensions": true,
-    "allowJs": true,
-    "types": []
+    "allowJs": true
   }
 }
