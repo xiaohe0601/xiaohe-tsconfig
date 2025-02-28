@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@antfu/ni": "^23.3.1",
-    "@xiaohe01/eslint-config": "^1.1.1",
+    "@xiaohe01/eslint-config": "^1.2.0",
     "bumpp": "^10.0.3",
     "eslint": "^9.21.0"
   }
