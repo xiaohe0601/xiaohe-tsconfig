@@ -8,28 +8,20 @@
 [![github stars][github-stars-src]][github-stars-href]
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
-[![bundle][bundle-src]][bundle-href]
 [![License][license-src]][license-href]
 
-Xiaohe / [github@xiaohe0601](https://github.com/xiaohe0601) / [gitee@xiaohe0601](https://gitee.com/xiaohe0601)
+xiaohe0601 / [github@xiaohe0601](https://github.com/xiaohe0601) / [gitee@xiaohe0601](https://gitee.com/xiaohe0601)
 
 ### 🚁 Installation
 
-#### PNPM
-
-``` shell
+```shell
+# pnpm
 pnpm add -D @xiaohe01/tsconfig
-```
 
-#### YARN
-
-``` shell
+# yarn
 yarn add --dev @xiaohe01/tsconfig
-```
 
-#### NPM
-
-``` shell
+# npm
 npm install -D @xiaohe01/tsconfig
 ```
 
@@ -41,10 +33,7 @@ npm install -D @xiaohe01/tsconfig
 // tsconfig.json
 
 {
-  "extends": "@xiaohe01/tsconfig",
-  // or
-  // "extends": "@xiaohe01/tsconfig/app",
-  // "extends": "@xiaohe01/tsconfig/tsconfig.app.json",
+  "extends": "@xiaohe01/tsconfig/tsconfig.app.json",
   "compilerOptions": {
     // ...
   }
@@ -53,22 +42,11 @@ npm install -D @xiaohe01/tsconfig
 
 #### List
 
-- [@xiaohe01/tsconfig/basic](./packages/core/tsconfig.basic.json)：tsconfig.basic.json
-
-- [@xiaohe01/tsconfig/app](./packages/core/tsconfig.app.json) `default`：tsconfig.app.json
-
-- [@xiaohe01/tsconfig/app-vue](./packages/core/tsconfig.app-vue.json)：tsconfig.app-vue.json
-
-- [@xiaohe01/tsconfig/lib](./packages/core/tsconfig.lib.json)：tsconfig.lib.json
-
-- [@xiaohe01/tsconfig/lib-dom](./packages/core/tsconfig.lib-dom.json)：tsconfig.lib-dom.json
-
-### 🐶 Discussion & Communication
-
-- ❓：For questions or bug feedback, you can submit an [issues](https://github.com/xiaohe0601/xiaohe-tsconfig/issues)
-  and PR are welcome
-- 📫：[xiaohe0601@outlook.com](mailto:xiaohe0601@outlook.com)
-- 🐧：Not yet available
+- [@xiaohe01/tsconfig/tsconfig.basic.json](./packages/core/tsconfig.basic.json)
+- [@xiaohe01/tsconfig/tsconfig.app.json](./packages/core/tsconfig.app.json)
+- [@xiaohe01/tsconfig/tsconfig.app-vue.json](./packages/core/tsconfig.app-vue.json)
+- [@xiaohe01/tsconfig/tsconfig.lib.json](./packages/core/tsconfig.lib.json)
+- [@xiaohe01/tsconfig/tsconfig.lib-dom.json](./packages/core/tsconfig.lib-dom.json)
 
 ### 🏆 License
 
@@ -80,7 +58,5 @@ npm install -D @xiaohe01/tsconfig
 [npm-version-href]: https://npmjs.com/package/@xiaohe01/tsconfig
 [npm-downloads-src]: https://img.shields.io/npm/dm/@xiaohe01/tsconfig?style=flat&colorA=080f12&colorB=1fa669
 [npm-downloads-href]: https://npmjs.com/package/@xiaohe01/tsconfig
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/@xiaohe01/tsconfig?style=flat&colorA=080f12&colorB=1fa669&label=minzip
-[bundle-href]: https://bundlephobia.com/result?p=@xiaohe01/tsconfig
 [license-src]: https://img.shields.io/github/license/xiaohe0601/xiaohe-tsconfig.svg?style=flat&colorA=080f12&colorB=1fa669
 [license-href]: https://github.com/xiaohe0601/xiaohe-tsconfig/blob/main/LICENSE
