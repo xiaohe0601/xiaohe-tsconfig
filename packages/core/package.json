@@ -22,6 +22,7 @@
     "./app-vue": "./tsconfig.app-vue.json",
     "./lib": "./tsconfig.lib.json",
     "./lib-dom": "./tsconfig.lib-dom.json",
+    "./lib-vue": "./tsconfig.lib-vue.json",
     "./*": "./*"
   }
 }
