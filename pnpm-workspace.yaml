@@ -4,9 +4,9 @@ packages:
   - packages/**
   - examples/**
 catalog:
-  '@antfu/ni': ^24.3.0
-  '@xiaohe01/eslint-config': ^1.5.1
-  bumpp: ^10.1.0
-  eslint: ^9.26.0
+  '@antfu/ni': ^25.0.0
+  '@xiaohe01/eslint-config': ^1.8.0
+  bumpp: ^10.2.0
+  eslint: ^9.29.0
 onlyBuiltDependencies:
   - unrs-resolver
