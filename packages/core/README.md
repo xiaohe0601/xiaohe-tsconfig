@@ -56,7 +56,7 @@ npm install -D @xiaohe01/tsconfig
 }
 ```
 
-### List
+## 📋 List
 
 - [@xiaohe01/tsconfig/tsconfig.basic.json](./packages/core/tsconfig.basic.json)
 - [@xiaohe01/tsconfig/tsconfig.dom.json](./packages/core/tsconfig.dom.json)
