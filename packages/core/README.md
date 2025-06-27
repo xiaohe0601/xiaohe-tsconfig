@@ -12,7 +12,7 @@
 
 xiaohe0601 / [github@xiaohe0601](https://github.com/xiaohe0601) / [gitee@xiaohe0601](https://gitee.com/xiaohe0601)
 
-### 🚁 Installation
+## 🚁 Installation
 
 ```shell
 # pnpm
@@ -25,31 +25,45 @@ yarn add --dev @xiaohe01/tsconfig
 npm install -D @xiaohe01/tsconfig
 ```
 
-### 🛹 Usage
+## 🛹 Usage
 
-#### Basic Usage
+### Basic
 
 ```json5
 // tsconfig.json
 
 {
-  "extends": "@xiaohe01/tsconfig/tsconfig.app.json",
+  "extends": "@xiaohe01/tsconfig/tsconfig.basic.json",
   "compilerOptions": {
     // ...
   }
 }
 ```
 
-#### List
+### Vue
+
+```json5
+// tsconfig.json
+
+{
+  "extends": [
+    "@xiaohe01/tsconfig/tsconfig.basic.json",
+    "@xiaohe01/tsconfig/tsconfig.vue.json"
+  ],
+  "compilerOptions": {
+    // ...
+  }
+}
+```
+
+### List
 
 - [@xiaohe01/tsconfig/tsconfig.basic.json](./packages/core/tsconfig.basic.json)
-- [@xiaohe01/tsconfig/tsconfig.app.json](./packages/core/tsconfig.app.json)
-- [@xiaohe01/tsconfig/tsconfig.app-vue.json](./packages/core/tsconfig.app-vue.json)
+- [@xiaohe01/tsconfig/tsconfig.dom.json](./packages/core/tsconfig.dom.json)
+- [@xiaohe01/tsconfig/tsconfig.vue.json](./packages/core/tsconfig.vue.json)
 - [@xiaohe01/tsconfig/tsconfig.lib.json](./packages/core/tsconfig.lib.json)
-- [@xiaohe01/tsconfig/tsconfig.lib-dom.json](./packages/core/tsconfig.lib-dom.json)
-- [@xiaohe01/tsconfig/tsconfig.lib-vue.json](./packages/core/tsconfig.lib-vue.json)
 
-### 🏆 License
+## 🏆 License
 
 - MIT [LICENSE](./LICENSE)
 

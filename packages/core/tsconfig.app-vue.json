@@ -1,7 +1,0 @@
-{
-  "extends": "./tsconfig.app.json",
-  "compilerOptions": {
-    "jsx": "preserve",
-    "jsxImportSource": "vue"
-  }
-}

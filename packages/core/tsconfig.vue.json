@@ -1,5 +1,5 @@
 {
-  "extends": "./tsconfig.lib-dom.json",
+  "extends": "./tsconfig.dom.json",
   "compilerOptions": {
     "jsx": "preserve",
     "jsxImportSource": "vue"

@@ -1,9 +1,8 @@
 {
-  "extends": "./tsconfig.basic.json",
   "compilerOptions": {
-    "lib": [
-      "ES2020"
-    ],
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "noEmit": false,
     "skipLibCheck": false
   }
 }
